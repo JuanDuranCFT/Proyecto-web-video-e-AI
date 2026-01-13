@@ -54,7 +54,7 @@ body, html {
     text-align: center;
     position: relative;
     overflow: hidden;
-    transition: flex 1.5s cubic-bezier(0.4, 0, 0.2, 1), border-left-width 1.5s ease;
+    transition: flex 1.3s cubic-bezier(0.4, 0, 0.2, 1), border-left-width 1.5s ease;
     z-index: 10;
 }
 
