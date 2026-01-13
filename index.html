@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica San Jose TV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <main class="player-section">
+            <video id="main-player" autoplay muted playsinline class="main-video"></video>
+        </main>
+        <aside class="sidebar">
+            <div class="info-panel">
+                <div class="fecha-section"><div id="fecha">Cargando fecha...</div></div>
+                <div class="hora-section"><div id="hora" class="hora">00:00</div></div>
+                <div class="weather-section">
+                    <div class="weather">
+                        <span id="clima-icon">☀️</span>
+                        <div>
+                            <div id="ciudad">Cargando clima...</div>
+                            <div id="temperatura">--°C</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
